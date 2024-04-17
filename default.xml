@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com/" review=""/>
+  <default remote="origin" revision="master" sync-j="4" />
+
+  <!-- common project  -->
+  <project path="commonprj" name="Anderson0609/sub_common_prj.git" revision="main"/>
+  <project path="commonprj/thirdparty" name="Anderson0609/sub_thirdparty" revision="main"/>
+  <project path="commonprj/modules/planning" name="Anderson0609/sub_planning" revision="main" />
+
+  <!-- CyanogenMod additions -->
+  <!--
+  <project path="android" name="CyanogenMod/android" />
+  -->
+
+  <!-- CodeAurora additions -->
+  <!--
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
+  -->
+</manifest>
+
